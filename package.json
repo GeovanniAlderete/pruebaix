@@ -4,13 +4,17 @@
   "author": "<Amenaza-Devs/> <geovanni.alderete.ruano.201@gmail.com>",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "lite": "lite-server",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@angular/animations": "~12.2.0",
     "@angular/cdk": "^12.2.12",
     "@angular/common": "~12.2.0",
@@ -21,7 +25,10 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
+    "save": "^2.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
