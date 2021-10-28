@@ -1,6 +1,7 @@
 {
   "name": "pruebaix",
   "version": "0.0.0",
+  "author": "<Amenaza-Devs/> <geovanni.alderete.ruano.201@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,10 +12,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
+    "@angular/cdk": "^12.2.12",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
+    "@angular/material": "^12.2.12",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
